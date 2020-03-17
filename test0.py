@@ -1,1 +1,1 @@
-print ("allen is here")
+print (1//2)
