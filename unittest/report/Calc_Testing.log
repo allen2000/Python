@@ -1,0 +1,227 @@
+2020-09-16 14:06:00,926   10252     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:06:00,929    9248     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,931    9248     INFO result.py(152) - 测试执行通过： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,932    9248     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,933    9248     INFO result.py(88) - 耗时： 0.002000093460083008
+2020-09-16 14:06:00,950    9248     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,951    9248     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,952    9248     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:06:00,953    9248     INFO result.py(88) - 耗时： 0.0010004043579101562
+2020-09-16 14:06:00,954    9248     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,956    9248     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,957    9248     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,958    9248     INFO result.py(88) - 耗时： 0.0010001659393310547
+2020-09-16 14:06:00,959    9248     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,960    9248     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,962    9248     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:06:00,963    9248     INFO result.py(88) - 耗时： 0.0019998550415039062
+2020-09-16 14:06:00,966   10252     INFO test_runner.py(191) - 
+Pass	test_2mul (__main__.TestMulDivFunctions)
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:06:00,969   10252     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.381021
+共计执行用例数量：4
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2020-09-16 14:07:00,089   12360     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:07:00,092   13060     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:07:00,097   13060  WARNING result.py(186) - 测试未通过： test_2mul (__main__.TestMulDivFunctions)
+Traceback (most recent call last):
+  File "test0.py", line 44, in test_2mul
+    self.assertTrue(self.c.mul(a,b)==except_result,'断言失败，%s * %s != %s' %(a, b, except_result))
+AssertionError: False is not true : 断言失败，5 * 14 != 71
+
+2020-09-16 14:07:00,100   13060     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:07:00,101   13060     INFO result.py(88) - 耗时： 0.0060002803802490234
+2020-09-16 14:07:00,104   13060     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:07:00,107   13060     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:07:00,110   13060     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:07:00,111   13060     INFO result.py(88) - 耗时： 0.00500035285949707
+2020-09-16 14:07:00,113   13060     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,118   13060     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,120   13060     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,122   13060     INFO result.py(88) - 耗时： 0.005000114440917969
+2020-09-16 14:07:00,123   13060     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,127   13060     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,130   13060     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:07:00,131   13060     INFO result.py(88) - 耗时： 0.005000114440917969
+2020-09-16 14:07:00,133   12360     INFO test_runner.py(191) - 
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:07:00,135   12360    ERROR test_runner.py(193) - 
+Fail	test_2mul (__main__.TestMulDivFunctions)
+
+2020-09-16 14:07:00,138   12360     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.261015
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2020-09-16 14:09:40,352    9320     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:09:40,355   12700     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:09:40,359   12700  WARNING result.py(186) - 测试未通过： test_2mul (__main__.TestMulDivFunctions)
+Traceback (most recent call last):
+  File "test0.py", line 44, in test_2mul
+    self.assertTrue(self.c.mul(a,b)==except_result,'断言失败，%s * %s != %s' %(a, b, except_result))
+AssertionError: False is not true : 断言失败，5 * 14 != 71
+
+2020-09-16 14:09:40,363   12700     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:09:40,364   12700     INFO result.py(88) - 耗时： 0.0060002803802490234
+2020-09-16 14:09:40,366   12700     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:09:40,371   12700     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:09:40,373   12700     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:09:40,375   12700     INFO result.py(88) - 耗时： 0.00500035285949707
+2020-09-16 14:09:40,376   12700     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,380   12700     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,383   12700     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,385   12700     INFO result.py(88) - 耗时： 0.005000114440917969
+2020-09-16 14:09:40,386   12700     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,390   12700     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,393   12700     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:09:40,394   12700     INFO result.py(88) - 耗时： 0.005000114440917969
+2020-09-16 14:09:40,396    9320     INFO test_runner.py(191) - 
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:09:40,397    9320    ERROR test_runner.py(193) - 
+Fail	test_2mul (__main__.TestMulDivFunctions)
+
+2020-09-16 14:09:40,400    9320     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.365021
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2020-09-16 14:13:25,248   12224     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:13:25,250    9648     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:13:25,256    9648  WARNING result.py(186) - 测试未通过： test_2mul (__main__.TestMulDivFunctions)
+Traceback (most recent call last):
+  File "test0.py", line 44, in test_2mul
+    self.assertTrue(self.c.mul(a,b)==except_result,'断言失败，%s * %s != %s' %(a, b, except_result))
+AssertionError: False is not true : 断言失败，5 * 14 != 71
+
+2020-09-16 14:13:25,260    9648     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:13:25,261    9648     INFO result.py(88) - 耗时： 0.00800013542175293
+2020-09-16 14:13:25,263    9648     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:13:25,267    9648     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:13:25,269    9648     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:13:25,271    9648     INFO result.py(88) - 耗时： 0.00500035285949707
+2020-09-16 14:13:28,251    9648     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,260    9648     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,265    9648     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,271    9648     INFO result.py(88) - 耗时： 0.009000539779663086
+2020-09-16 14:13:28,276    9648     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,284    9648     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,288    9648     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:13:28,292    9648     INFO result.py(88) - 耗时： 0.00700068473815918
+2020-09-16 14:13:31,253   12224     INFO test_runner.py(191) - 
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:13:31,256   12224    ERROR test_runner.py(193) - 
+Fail	test_2mul (__main__.TestMulDivFunctions)
+
+2020-09-16 14:13:31,263   12224     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:06.245357
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2020-09-16 14:14:38,138    6092     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:14:38,141    9808     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:14:38,143    9808  WARNING result.py(186) - 测试未通过： test_2mul (__main__.TestMulDivFunctions)
+Traceback (most recent call last):
+  File "test0.py", line 44, in test_2mul
+    self.assertTrue(self.c.mul(a,b)==except_result,'断言失败，%s * %s != %s' %(a, b, except_result))
+AssertionError: False is not true : 断言失败，5 * 14 != 71
+
+2020-09-16 14:14:38,145    9808     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:14:38,146    9808     INFO result.py(88) - 耗时： 0.003000497817993164
+2020-09-16 14:14:38,147    9808     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:14:38,149    9808     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:14:38,150    9808     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:14:38,151    9808     INFO result.py(88) - 耗时： 0.002000093460083008
+2020-09-16 14:14:38,152    9808     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,153    9808     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,155    9808     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,156    9808     INFO result.py(88) - 耗时： 0.002000093460083008
+2020-09-16 14:14:38,157    9808     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,158    9808     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,159    9808     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:14:38,160    9808     INFO result.py(88) - 耗时： 0.0010004043579101562
+2020-09-16 14:14:38,162    6092     INFO test_runner.py(191) - 
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:14:38,162    6092    ERROR test_runner.py(193) - 
+Fail	test_2mul (__main__.TestMulDivFunctions)
+
+2020-09-16 14:14:38,164    6092     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.228013
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2020-09-16 14:15:06,710   12656     INFO test_runner.py(154) - 预计并发线程数：1
+2020-09-16 14:15:06,713   10964     INFO result.py(65) - 开始测试： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:15:06,715   10964  WARNING result.py(186) - 测试未通过： test_2mul (__main__.TestMulDivFunctions)
+Traceback (most recent call last):
+  File "test0.py", line 44, in test_2mul
+    self.assertTrue(self.c.mul(a,b)==except_result,'断言失败，%s * %s != %s' %(a, b, except_result))
+AssertionError: False is not true : 断言失败，5 * 14 != 71
+
+2020-09-16 14:15:06,718   10964     INFO result.py(86) - 测试结束： test_2mul (__main__.TestMulDivFunctions)
+2020-09-16 14:15:06,719   10964     INFO result.py(88) - 耗时： 0.004000186920166016
+2020-09-16 14:15:06,720   10964     INFO result.py(65) - 开始测试： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:15:06,722   10964     INFO result.py(152) - 测试执行通过： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:15:06,723   10964     INFO result.py(86) - 测试结束： test_3div (__main__.TestMulDivFunctions)
+2020-09-16 14:15:06,724   10964     INFO result.py(88) - 耗时： 0.0010001659393310547
+2020-09-16 14:15:06,725   10964     INFO result.py(65) - 开始测试： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,727   10964     INFO result.py(152) - 测试执行通过： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,728   10964     INFO result.py(86) - 测试结束： test_0add (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,729   10964     INFO result.py(88) - 耗时： 0.0009999275207519531
+2020-09-16 14:15:06,730   10964     INFO result.py(65) - 开始测试： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,732   10964     INFO result.py(152) - 测试执行通过： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,733   10964     INFO result.py(86) - 测试结束： test_1sub (__main__.TestAddSubFunctions)
+2020-09-16 14:15:06,734   10964     INFO result.py(88) - 耗时： 0.0019998550415039062
+2020-09-16 14:15:06,736   12656     INFO test_runner.py(191) - 
+Pass	test_3div (__main__.TestMulDivFunctions)
+Pass	test_0add (__main__.TestAddSubFunctions)
+Pass	test_1sub (__main__.TestAddSubFunctions)
+
+2020-09-16 14:15:06,736   12656    ERROR test_runner.py(193) - 
+Fail	test_2mul (__main__.TestMulDivFunctions)
+
+2020-09-16 14:15:06,739   12656     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:00.235014
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
